@@ -160,19 +160,20 @@ html {
 	text-align: left;
 }
 .hero .hero-info .hero-info-heading {
-	font-size: 2.8rem;
-	font-weight: 500;
-
-}
-.hero .hero-info .hero-info-subheading {
-	font-size: 3rem;
+		font-size: 6rem;
+		font-weight: 500;
+	}
+.hero .hero-info .subheading{
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: .5rem;
 	color: black;
 }
-.hero .hero-info .hero-info-subheading span{
-	background-color: black;
+.hero .hero-info .subheading span{
+	background-color: rgb(0,0,23);
 	color: white;
+	font-weight: 500;
+	padding: 5px;
 }
 .hero .hero-info .hero-info-button {
 	padding: 1.6rem 2.6rem;
@@ -241,7 +242,7 @@ background-color: rgba(0,0,0,0.1);
 
 }
 .about .about-info .about-info-button:hover {
-	background-color: black;
+	background-color: rgb(0,0,23);
 }
 .about .about-img {
 	margin: 40px 0px;
@@ -388,7 +389,8 @@ font-weight: 550;
 	transition: .3s ease background-color;
 }
 .works .column .oneside-center .work-button:hover{
-	background-color: black;
+	background-color: rgb(0,0,23);
+
 
 }
 .works .column .anotherside img{
@@ -430,15 +432,15 @@ height: 350px;
 	transition: .3s ease background-color;
 }
 .hire .hire-button:hover {
-	background-color: black;
+	background-color: rgb(0,0,23);
 }
 /* End Hire Section  */
 
 /* Footer section  */
 .footer {
 	min-height: 20vh;
+	background-color: rgb(0,0,18);
 	width: 100%;
-	background-color: black;
 	color: white;
 	display: flex;
 	/* text-align: center; */
@@ -492,7 +494,8 @@ height: 350px;
 }
 /* End Footer section  */
 
-/* Media query for desktop and tab  */
+/* Media query section*/
+/*Bistarai gardai garamla nih k xa ra,,time lagxa k yeslai tei jhyau lagxa*/
 @media only screen and (min-width: 768px) {
 	.nav-bar .nav-list .hamburger {
 		display: none;
@@ -539,28 +542,6 @@ height: 350px;
 		text-align: left;
 		padding-right: 17rem;
 	}
-	.services .services-header .services-header-desc {
-		max-width: 500px;
-		padding-top: 20px;
-		margin: 0 auto;
-	}
-	.services .services-info {
-		flex-direction: row;
-		width: 80%;
-	}
-	.services .services-info .service {
-		margin: 0;
-	}
+	/*gardai garam*/
 }
 /* End Media query for desktop and tab  */
-
-/* Media Query For Desktop Only  */
-@media only screen and (min-width: 1200px) {
-	.hero .hero-info .hero-info-heading {
-		font-size: 6rem;
-	}
-	.hero .hero-info .hero-info-subheading {
-		letter-spacing: .8rem;
-	}
-}
-/* End Media Query For Desktop Only  */

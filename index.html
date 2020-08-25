@@ -6,6 +6,7 @@
     <title>Sujan Bhattarai</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -31,7 +32,7 @@
     <section id="hero" class="hero container">
         <div class="hero-info">
         <h1 class="hero-info-heading">I Can Design <br><span>Your Dream Website<span></h1>
-          <p class="hero-info-subheading">I am <span class="type"></span></p>
+          <p class="subheading">I am <span class="type"></span></p>
           <a href="#about" type="button" class="hero-info-button">Know More</a>
         </div>
         <div class="hero-img">
@@ -60,19 +61,19 @@
         <div class="service-center">
           <h2 class="service-heading">Services</h2>
           <div class="row">
-            <div class="one">
+            <div class="one"data-aos="fade-right" data-aos-offset="200"    data-aos-easing="ease-in-out">
               <img src="https://t3.ftcdn.net/jpg/02/14/53/92/240_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg" alt="not loaded">
               <div class="downtext">
                 <h2>Web-Development</h2>
               </div>
             </div>
-            <div class="two">
+            <div class="two"data-aos="fade-up" data-aos-offset="200"    data-aos-easing="ease-in-out">
               <img src="https://t3.ftcdn.net/jpg/02/10/57/64/240_F_210576472_KcgTSoPTiMqionPbkJQ6Dsd01Uf5SE4d.jpg" alt="not loaded">
               <div class="downtext">
                 <h2>App-Development</h2>
               </div>
             </div>
-            <div class="third">
+            <div class="third"data-aos="fade-left" data-aos-offset="200"    data-aos-easing="ease-in-out">
               <img src="https://t3.ftcdn.net/jpg/01/71/54/46/240_F_171544645_lHNIB9ZNssBq3kXRIuBSb36VFHqws01U.jpg" alt="not loaded">
               <div class="downtext">
                 <h2>S.E.O</h2>
@@ -97,7 +98,7 @@
                   
                 </div>
               </div>
-              <div class="anotherside">
+              <div class="anotherside" data-aos="zoom-in"data-aos-offset="80">
                 <div class="anotherside-center">
                   <img src="https://t4.ftcdn.net/jpg/01/31/27/33/240_F_131273388_w7y2wQKw6LVhvdjI5qO91VuiEVGNX19J.jpg">
                 </div>
@@ -113,7 +114,7 @@
                 </div>
                 
               </div>
-              <div class="anotherside">
+              <div class="anotherside" data-aos="zoom-in"data-aos-offset="80">
                 <div class="anotherside-center">
                   <img src="https://t3.ftcdn.net/jpg/02/47/17/66/240_F_247176662_Idt24ArsqOgBlFW8eFs6tPe4Iyb7ZZ6h.jpg">
                 </div>
@@ -129,7 +130,7 @@
                 </div>
                 
               </div>
-              <div class="anotherside">
+              <div class="anotherside" data-aos="zoom-in"data-aos-offset="80">
                 <div class="anotherside-center">
                   <img src="https://t3.ftcdn.net/jpg/03/32/76/48/240_F_332764841_CfcVArwsOWyu94cEbdYjVpcEOO89imNl.jpg">
                 </div>
@@ -177,5 +178,9 @@
                 loop :true,
             });
         </script> 
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({once:"true"});
+  </script>
       </body>
     </html>
